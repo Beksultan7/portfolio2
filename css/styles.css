@@ -1,0 +1,163 @@
+:root {
+  --accent: #174180;
+  --accent-light: #3764a7;
+  --pure-white: #fff;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+* ::before,
+* ::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: var(--accent);
+}
+.section {
+  padding: 10px 0;
+}
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+header a {
+  color: var(--pure-white);
+  text-decoration: none;
+}
+header {
+  background-image: url(https://cdn.pixabay.com/photo/2017/01/07/20/41/alcohol-1961542_960_720.jpg);
+}
+.header-nav {
+  padding: 11px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  width: 35%;
+  font-size: 30px;
+  font-weight: 800px;
+  line-height: 30px;
+  letter-spacing: 3px;
+}
+
+.header-menu {
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+
+.header-menu-link {
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: uppercase;
+  padding: 15px;
+  transition: background-color 0.04s;
+}
+.header-menu-link:hover {
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804__340.jpg);
+}
+main {
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg);
+}
+
+.intro {
+  padding: 3em 0;
+}
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-left {
+  width: 20%;
+}
+.intro-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.intro-right {
+  width: 60%;
+}
+.intro-text h1,
+.intro-tex h3 {
+  margin: 0 0 10px;
+}
+.contacts {
+  margin-bottom: 30px;
+}
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skills {
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804__340.jpg);
+  color: var(--pure-white);
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skills li {
+  background-color: var(--accent-light);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.cod-example {
+  text-align: center;
+}
+.cod-example p {
+  font-style: italic;
+}
+.cod-example b {
+  font-style: normal;
+}
+.cod-example pre {
+  width: 50%;
+  font-size: 1em;
+  margin: 0 auto;
+  text-align: left;
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804__340.jpg);
+  color: var(--pure-white);
+  border-radius: 4px;
+}
+.Languages li {
+  padding: 10px 0;
+}
+.Languages ul {
+  margin-left: 40px;
+}
+.Education-inner {
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804__340.jpg);
+  color: var(--pure-white);
+}
+
+.Education-inner ul {
+  margin-left: 40px;
+}
+
+.footer-inner p {
+  text-align: center;
+}
