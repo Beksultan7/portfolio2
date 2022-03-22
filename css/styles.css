@@ -72,9 +72,6 @@ header {
   list-style: none;
 }
 
-.nav {
-  /*display: none;*/
-}
 .header-menu-link {
   font-size: 16px;
   line-height: 16px;
@@ -99,18 +96,14 @@ main {
   justify-content: center;
   align-items: center;
 }
-.intro-left {
-  /*width: 20%;*/
-}
+
 .intro-img {
   object-fit: cover;
   /* width: 200px;8*/
   height: 250px;
   border-radius: 10%;
 }
-.intro-right {
-  /*width: 60%;*/
-}
+
 .intro-text h1,
 .intro-tex h3 {
   margin: 0 0 10px;
@@ -165,7 +158,6 @@ main {
 }
 
 .cod-example pre {
-  /*width: 50%;*/
   font-size: 1em;
   margin: 0 auto;
   text-align: left;
